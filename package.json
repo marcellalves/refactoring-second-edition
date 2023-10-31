@@ -4,7 +4,7 @@
   "description": "",
   "main": "InitialProgram.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive '*/tests/*.test.js'"
   },
   "keywords": [],
   "author": "",
