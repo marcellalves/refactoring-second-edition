@@ -5,7 +5,7 @@ export default class Province {
     return this._name;
   }
   get producers() {
-    return this_producers.slice();
+    return this._producers.slice();
   }
   get totalProduction() {
     return this._totalProduction;
