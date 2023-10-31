@@ -1,3 +1,5 @@
+import Producer from "./Producer.js";
+
 export default class Province {
   get name() {
     return this._name;
@@ -5,10 +7,10 @@ export default class Province {
   get producers() {
     return this_producers.slice();
   }
-  get _totalProduction() {
+  get totalProduction() {
     return this._totalProduction;
   }
-  set _totalProduction(arg) {
+  set totalProduction(arg) {
     this._totalProduction = arg;
   }
   get demand() {
